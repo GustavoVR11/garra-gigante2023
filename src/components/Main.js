@@ -26,31 +26,37 @@ const Main = () => {
     const caseImages = [
         {
             imageURL: '/resgate.png',
+            alt: 'resgate',
             miniHeader: 'Equipamento feito no evento global do TUDUM da Netflix em 2023 em parceria com a 828 Organização de Eventos para o lançamento do filme Resgate 2.',
             description: 'Garra de 25m² com 4m de pé direito e 3m de elevação.',
         },
         {
             imageURL: '/caju.png',
+            alt: 'caju',
             miniHeader: 'Equipamento e cenografia feitas para o HR4 Results em 2023 em parceria com a MOA Proficiency in Production para ativação da Caju Benefícios no evento.',
             description: 'Garra de 25m² com 4m de pé direito e 3,5m de elevação.',
         },
         {
             imageURL: '/halloween.png',
+            alt: 'halloween',
             miniHeader: 'Equipamento e cenografia feitos em comemoração ao Halloween do Shopping União para entrega de prêmios e ativação de marca.',
             description: 'Garra de 25m² com 4m de pé direito e 3,5m de elevação.',
         },
         {
             imageURL: '/nestle.png',
+            alt: 'nestle',
             miniHeader: 'Equipamento e cenografia feitas para a promoção Ganhei um ano Nestlé em parceria com as agências Terruá de Brasília e FSBComunicação para ativação e coleta de Leads.',
             description: 'Garra de 16m² com 4m de pé direito e 3m de elevação.',
         },
         {
             imageURL: '/pacoquita.png',
+            alt: 'pacoquita',
             miniHeader: 'Equipamento feito para a comemoração dos 40 anos da Paçoquita no Shopping Eldorado em São Paulo para coleta de Leads e ativação de marca.',
             description: 'Garra de 25m² com 4m de pé direito e 3,5m de elevação.',
         },
         {
             imageURL: '/mdouro.png',
+            alt: 'mdouro',
             miniHeader: 'Equipamento e cenografia feitos em parceria com a MDOuro para promoção e ativação da marca de snacks, além de lançamento comercial.',
             description: 'Garra de 16m² com 4m de pé direito e 3m de elevação.',
         },
@@ -93,10 +99,10 @@ const Main = () => {
                     <h2>Na mídia</h2>
                     <p>Além de Globo, RedeTV, SBT, Gazeta e Band tivemos inserções na VejaSP, Uol e Terra</p>
                     <div className='media-images'>
-                        <img src='/midia.png' alt='Mídia'></img>
-                        <img src='/midia2.png' alt='Mídia_2'></img>
-                        <img src='/midia3.png' alt='Mídia_3'></img>
-                        <img src='/midia4.png' alt='Mídia_4'></img>
+                        <img src='/midia.png' alt='Midia'></img>
+                        <img src='/midia2.png' alt='Midia_2'></img>
+                        <img src='/midia3.png' alt='Midia_3'></img>
+                        <img src='/midia4.png' alt='Midia_4'></img>
                     </div>
                 </section>
                 <section id='garra' className='garra'>
