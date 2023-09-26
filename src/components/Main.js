@@ -45,7 +45,7 @@ const Main = () => {
             description: 'Garra de 16m² com 4m de pé direito e 3m de elevação.',
         },
         {
-            imageURL: '/pacoquita.png',
+            imageURL: '/pacoquita.PNG',
             miniHeader: 'Equipamento feito para a comemoração dos 40 anos da Paçoquita no Shopping Eldorado em São Paulo para coleta de Leads e ativação de marca.',
             description: 'Garra de 25m² com 4m de pé direito e 3,5m de elevação.',
         },
